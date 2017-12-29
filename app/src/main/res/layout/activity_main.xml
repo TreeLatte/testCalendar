@@ -17,13 +17,59 @@
             android:layout_height="wrap_content"
             app:mcv_selectionColor="#a9dbf0cb"
             app:mcv_showOtherDates="defaults"
-            app:mcv_tileWidth="50dp"
-            app:mcv_tileHeight="40dp"/>
+            app:mcv_tileWidth="55dp"
+            app:mcv_tileHeight="45dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="카테고리"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="태그"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="금랙"/>
+        </LinearLayout>
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dip"
+                    android:background="#ff0000"
+                    android:gravity="center"
+                    android:text="#ff0000" />
+
+            </LinearLayout>
         </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/button_plus2"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="추가하기"
+                android:textSize="30sp"/>
+        </LinearLayout>
 
     </LinearLayout>
 
