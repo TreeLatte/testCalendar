@@ -18,5 +18,6 @@
         </activity>
         <activity android:name=".DayViewActivity"></activity>
     </application>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
